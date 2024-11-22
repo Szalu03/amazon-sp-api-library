@@ -1,6 +1,6 @@
 <?php
 
-namespace AddingAContentToOffer;
+namespace spbiblioteka\AmazonSpApiLibrary\AddingAContentToOffer;
 
 use SellingPartnerApi\Seller\APlusContentV20201101\Dto\PostContentDocumentAsinRelationsRequest;
 use SellingPartnerApi\Seller\APlusContentV20201101\Requests\PostContentDocumentApprovalSubmission;
