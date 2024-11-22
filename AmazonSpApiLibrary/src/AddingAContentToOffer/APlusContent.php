@@ -202,44 +202,37 @@ class APlusContent
                     headline: new TextComponent(value: $headline2),
                     body: new ParagraphComponent(
                         textList: [
-                            new TextComponent(value: $body2,
-                            decoratorSet:[
-                                    // Pogrubienie i lista dla "Material:"
-                                    new Decorator(type: 'BOLD', offset: 0, length: 8),
+                            new TextComponent(
+                                value: $body2,
+                                decoratorSet: [
+                                    new Decorator(type: 'STYLE_BOLD', offset: 0, length: 8, depth: 0),
                                     new Decorator(type: 'LIST_ITEM', offset: 0, length: 69, depth: 1),
                                     new Decorator(type: 'LIST_UNORDERED', offset: 0, length: 69, depth: 1),
 
-                                    // Pogrubienie i lista dla "Verstellbare Höhe:"
-                                    new Decorator(type: 'BOLD', offset: 70, length: 18),
+                                    new Decorator(type: 'STYLE_BOLD', offset: 70, length: 18, depth: 0),
                                     new Decorator(type: 'LIST_ITEM', offset: 70, length: 45, depth: 1),
                                     new Decorator(type: 'LIST_UNORDERED', offset: 70, length: 45, depth: 1),
 
-                                    // Pogrubienie i lista dla "Maximale Belastung:"
-                                    new Decorator(type: 'BOLD', offset: 116, length: 20),
+                                    new Decorator(type: 'STYLE_BOLD', offset: 116, length: 20, depth: 0),
                                     new Decorator(type: 'LIST_ITEM', offset: 116, length: 42, depth: 1),
                                     new Decorator(type: 'LIST_UNORDERED', offset: 116, length: 42, depth: 1),
 
-                                    // Pogrubienie i lista dla "Integrierte Ablage:"
-                                    new Decorator(type: 'BOLD', offset: 159, length: 18),
+                                    new Decorator(type: 'STYLE_BOLD', offset: 159, length: 18, depth: 0),
                                     new Decorator(type: 'LIST_ITEM', offset: 159, length: 46, depth: 1),
                                     new Decorator(type: 'LIST_UNORDERED', offset: 159, length: 46, depth: 1),
 
-                                    // Pogrubienie i lista dla "Abmessungen:"
-                                    new Decorator(type: 'BOLD', offset: 206, length: 12),
+                                    new Decorator(type: 'STYLE_BOLD', offset: 206, length: 12, depth: 0),
                                     new Decorator(type: 'LIST_ITEM', offset: 206, length: 76, depth: 1),
                                     new Decorator(type: 'LIST_UNORDERED', offset: 206, length: 76, depth: 1),
 
-                                    // Pogrubienie i lista dla "Leicht zu montieren:"
-                                    new Decorator(type: 'BOLD', offset: 283, length: 20),
+                                    new Decorator(type: 'STYLE_BOLD', offset: 283, length: 20, depth: 0),
                                     new Decorator(type: 'LIST_ITEM', offset: 283, length: 45, depth: 1),
                                     new Decorator(type: 'LIST_UNORDERED', offset: 283, length: 45, depth: 1),
 
-                                    // Pogrubienie i lista dla "Ideal für verschiedene Räume:"
-                                    new Decorator(type: 'BOLD', offset: 329, length: 28),
+                                    new Decorator(type: 'STYLE_BOLD', offset: 329, length: 28, depth: 0),
                                     new Decorator(type: 'LIST_ITEM', offset: 329, length: 154, depth: 1),
                                     new Decorator(type: 'LIST_UNORDERED', offset: 329, length: 154, depth: 1),
                                 ]
-
                             )
                         ]
                     )
