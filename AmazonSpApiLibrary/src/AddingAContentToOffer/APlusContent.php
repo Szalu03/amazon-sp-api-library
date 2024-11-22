@@ -333,7 +333,7 @@ class APlusContent
         $contentDocument = new ContentDocument(
             name: $name,
             contentType: 'EBC',
-            locale: 'en-GB',
+            locale: 'de-DE',
             contentModuleList: [$module1, $module2, $module3, $module4, $module5,$newModule, $module6]
         );
 
