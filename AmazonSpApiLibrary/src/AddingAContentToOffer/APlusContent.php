@@ -206,11 +206,11 @@ class APlusContent
                                 value: $body2,
                                 decoratorSet: [
                                     new Decorator(type: 'STYLE_BOLD', offset: 0, length: 8, depth: 0),  // Material:
-                                    new Decorator(type: 'LIST_ITEM', offset: 0, length: 48, depth: 1),
-                                    new Decorator(type: 'LIST_UNORDERED', offset: 0, length: 48, depth: 1),
+                                    new Decorator(type: 'LIST_ITEM', offset: 0, length: 63, depth: 1),
+                                    new Decorator(type: 'LIST_UNORDERED', offset: 0, length: 63, depth: 1),
 
-                                    new Decorator(type: 'STYLE_BOLD', offset: 56, length: 18, depth: 0),  // Verstellbare Höhe:
-                                    new Decorator(type: 'LIST_ITEM', offset: 56, length: 38, depth: 1),
+                                    new Decorator(type: 'STYLE_BOLD', offset: 64, length: 18, depth: 0),  // Verstellbare Höhe:
+                                    new Decorator(type: 'LIST_ITEM', offset: 64, length: 38, depth: 1),
                                     new Decorator(type: 'LIST_UNORDERED', offset: 56, length: 38, depth: 1),
 
                                     new Decorator(type: 'STYLE_BOLD', offset: 94, length: 20, depth: 0),  // Maximale Belastung:
