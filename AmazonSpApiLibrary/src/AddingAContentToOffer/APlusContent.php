@@ -226,11 +226,11 @@ class APlusContent
                         ),
                         altText: 'HausundGarten_ver2'
                     ),
-                    headline: new TextComponent(value: 'Discover the category "Home and Garden" in our Amazon shop!'),
+                    headline: new TextComponent(value: 'Entdecken Sie die Kategorie "Haus und Garten" in unserem Amazon-Shop!'),
                     body: new ParagraphComponent(
                         textList: [
                             new TextComponent(
-                                value: 'Find stylish decorations, functional tools, and comfortable furniture that will transform your home and garden. Check out our listing today!'
+                                value: 'Finden Sie stilvolle Dekorationen, funktionale Werkzeuge und bequeme Möbel, die Ihr Zuhause und Ihren Garten verwandeln. Schauen Sie sich unser Angebot noch heute an!'
                             )
                         ]
                     )
@@ -256,11 +256,11 @@ class APlusContent
                         ),
                         altText: 'Kids_ver2'
                     ),
-                    headline: new TextComponent(value: 'Discover our category "Children" on Amazon!'),
+                    headline: new TextComponent(value: 'Entdecken Sie unsere Kategorie "Kinder" auf Amazon!'),
                     body: new ParagraphComponent(
                         textList: [
                             new TextComponent(
-                                value: 'We offer a wide range of products that enrich your children\'s everyday life - from toys to clothes to learning materials. Take a look at our offer and give your children a joy'
+                                value: 'Wir bieten eine breite Palette an Produkten, die den Alltag Ihrer Kinder bereichern – von Spielzeug über Kleidung bis hin zu Lernmaterialien. Schauen Sie sich unser Angebot an und bereiten Sie Ihren Kindern eine Freude!'
                         )
                     ]
                 )
@@ -286,11 +286,11 @@ class APlusContent
                     ),
                     altText: 'SportundTouristik_ver2'
                 ),
-                headline: new TextComponent(value: 'Explore the sports and tourism category in our Amazon store!'),
+                headline: new TextComponent(value: 'Erkunden Sie die Kategorie Sport und Touristik in unserem Amazon-Shop!'),
                 body: new ParagraphComponent(
                     textList: [
                         new TextComponent(
-                            value: 'Here you will find functional equipment, stylish clothing and practical accessories that make your sports activities and travel more enjoyable. Browse through our range and start your next adventure well equipped!'
+                            value: 'Hier finden Sie funktionale Ausrüstung, stilvolle Kleidung und praktische Accessoires, die Ihre sportlichen Aktivitäten und Reisen angenehmer machen. Stöbern Sie durch unser Sortiment und starten Sie Ihr nächstes Abenteuer bestens ausgestattet!'
                         )
                     ]
                 )
@@ -316,11 +316,11 @@ class APlusContent
                     ),
                     altText: 'OtherCategories_ver2'
                 ),
-                headline: new TextComponent(value: 'Welcome to the Other Categories category in our Amazon store!'),
+                headline: new TextComponent(value: 'Willkommen in der Kategorie Andere Kategorien in unserem Amazon-Shop!'),
                 body: new ParagraphComponent(
                     textList: [
                         new TextComponent(
-                            value: 'We offer a wide range of functional products for everyday use - from household items to technical gadgets. Check out our offer today and find everything you need for a comfortable and well-organised life!'
+                            value: 'Wir bieten eine breite Auswahl an funktionalen Produkten für den täglichen Gebrauch – von Haushaltsartikeln bis hin zu technischen Gadgets. Schauen Sie sich unser Angebot noch heute an und finden Sie alles, was Sie für ein komfortables und gut organisiertes Leben benötigen!'
                         )
                     ]
                 )
