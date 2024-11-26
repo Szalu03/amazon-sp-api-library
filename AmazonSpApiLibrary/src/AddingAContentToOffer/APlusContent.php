@@ -125,7 +125,7 @@ class APlusContent
         $module1 = new ContentModule(
             contentModuleType: 'STANDARD_IMAGE_TEXT_OVERLAY',
             standardImageTextOverlay: new StandardImageTextOverlayModule(
-                overlayColorType: 'DARK',
+                overlayColorType: '',
                 block: new StandardImageTextBlock(
                     image: new ImageComponent(
                         uploadDestinationId: 'aplus-media-library-service-media/3ada5e79-a9dc-4e29-9a24-5ca0f736f309.png',
