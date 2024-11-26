@@ -205,35 +205,7 @@ class APlusContent
                         textList: [
                             new TextComponent(
                                 value: $body2,
-                                decoratorSet: [
-                                    new Decorator(type: 'STYLE_BOLD', offset: 0, length: 9, depth: 0),  // Material:
-                                    new Decorator(type: 'LIST_ITEM', offset: 0, length: 64, depth: 1),
-                                    new Decorator(type: 'LIST_UNORDERED', offset: 0, length: 64, depth: 1),
 
-                                    new Decorator(type: 'STYLE_BOLD', offset: 65, length: 18, depth: 0),  // Verstellbare Höhe:
-                                    new Decorator(type: 'LIST_ITEM', offset: 65, length: 45, depth: 1),
-                                    new Decorator(type: 'LIST_UNORDERED', offset: 65, length: 45, depth: 1),
-
-                                    new Decorator(type: 'STYLE_BOLD', offset: 111, length: 20, depth: 0),  // Maximale Belastung:
-                                    new Decorator(type: 'LIST_ITEM', offset: 111, length: 22, depth: 1),
-                                    new Decorator(type: 'LIST_UNORDERED', offset: 111, length: 22, depth: 1),
-
-                                    new Decorator(type: 'STYLE_BOLD', offset: 134, length: 18, depth: 0),  // Integrierte Ablage:
-                                    new Decorator(type: 'LIST_ITEM', offset: 134, length: 48, depth: 1),
-                                    new Decorator(type: 'LIST_UNORDERED', offset: 134, length: 48, depth: 1),
-
-                                    new Decorator(type: 'STYLE_BOLD', offset: 183, length: 12, depth: 0),  // Abmessungen:
-                                    new Decorator(type: 'LIST_ITEM', offset: 183, length: 61, depth: 1),
-                                    new Decorator(type: 'LIST_UNORDERED', offset: 183, length: 61, depth: 1),
-
-                                    new Decorator(type: 'STYLE_BOLD', offset: 245, length: 20, depth: 0),  // Leicht zu montieren:
-                                    new Decorator(type: 'LIST_ITEM', offset: 245, length: 36, depth: 1),
-                                    new Decorator(type: 'LIST_UNORDERED', offset: 245, length: 36, depth: 1),
-
-                                    new Decorator(type: 'STYLE_BOLD', offset: 282, length: 28, depth: 0),  // Ideal für verschiedene Räume:
-                                    new Decorator(type: 'LIST_ITEM', offset: 282, length: 60, depth: 1),
-                                    new Decorator(type: 'LIST_UNORDERED', offset: 282, length: 60, depth: 1),
-                                ]
                             )
                         ]
                     )
